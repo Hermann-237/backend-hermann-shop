@@ -5,6 +5,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run server.js",
+    "deploy": "gh-pages -d backend-hermann-shop",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
